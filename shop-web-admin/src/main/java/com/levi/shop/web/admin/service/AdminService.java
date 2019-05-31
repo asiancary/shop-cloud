@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "itoken-service-admin", fallback = AdminServiceFallback.class)
+@FeignClient(value = "shop-service-admin", fallback = AdminServiceFallback.class)
 @Service
 public interface AdminService extends BaseClientService {
 

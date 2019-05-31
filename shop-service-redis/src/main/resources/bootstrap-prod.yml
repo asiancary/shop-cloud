@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       uri: http://192.168.75.137:8888
-      name: itoken-client-eureka, itoken-client-zipkin, itoken-client-admin, itoken-client-redis, itoken-service-redis
+      name: shop-client-eureka, shop-client-zipkin, shop-client-admin, shop-client-redis, shop-service-redis
       label: master
       profile: prod

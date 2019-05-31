@@ -1,6 +1,6 @@
 spring:
   application:
-    name: itoken-config
+    name: shop-config
   boot:
     admin:
       client:
@@ -10,10 +10,10 @@ spring:
       label: master
       server:
         git:
-          uri: http://192.168.75.128/itoken/itoken-config-respo.git
+          uri: https://github.com/chukaihong/shop-cloud/tree/master/shop-config-respo
           search-paths: respo
-          username: topsale@vip.qq.com
-          password: 12345678
+          username:
+          password:
   zipkin:
     base-url: http://localhost:9411
 
