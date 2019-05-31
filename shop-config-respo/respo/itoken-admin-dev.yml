@@ -3,4 +3,4 @@ spring:
     name: itoken-admin
 
 server:
-  port: 8084
+  port: 8085
